@@ -1,0 +1,28 @@
+/* HOVERS ARE SEPARATED FOR DESKTOP SEGMENT BECAUSE THE CSS IS REUSED FOR TABLET */
+#header .logo:hover,
+#navigation ul li:hover {text-decoration: none;}
+
+#content .scene a:hover {text-decoration: underline;}
+
+.terms_notification .accept:hover {background-color: #313942;}
+.terms_notification .details:hover {text-decoration: underline;}
+
+
+ul.actions input.button:hover,
+ul.actions a.button:hover,
+#content ul.actions a.button:hover {background-color: #bebebe;}
+ul.actions input.button.primary:hover,
+ul.actions a.button.primary:hover,
+#content ul.actions a.button.primary:hover {background-color: #313942;}
+ul.actions input.button.secondary:hover,
+ul.actions a.button.secondary:hover,
+#content ul.actions a.button.secondary:hover {background-color: #313942;}
+ul.actions input.button.disabled:hover,
+ul.actions a.button.disabled:hover,
+#content ul.actions a.button.disabled:hover {cursor: default !important; color: #aaaaaa !important; background-color: #eeeeee !important;}
+
+div.field.html ul.options li:hover {background-color: #64ad8e;}
+div.field.html .editor div.tag:hover .drag {display: block;}
+div.field.html .editor div.tag:hover .remove {display: block;}
+body #selection_options ul.actions input.button:hover,
+body #selection_options ul.actions a.button:hover {background-color: #313942;}

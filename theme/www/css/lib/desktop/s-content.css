@@ -1,0 +1,94 @@
+#content {position: relative;}
+#content .scene {position: relative; padding: 50px 0 75px;}
+#content .scene h1 span {display: inline-block;}
+
+/* BASIC CONTENT */
+#content .scene .link {cursor: pointer;}
+#content .scene a {color: #888888;}
+#content .scene h1,
+#content .scene h2,
+#content .scene h3,
+#content .scene h4,
+#content .scene h5,
+#content .scene h6,
+#content .scene p {width: 500px; position: relative;}
+#content .scene hr {border: none; border-top: 1px solid #888888; margin: 30px 0 50px; padding: 0;}
+#content .scene p.note {font-style: italic;}
+
+
+/* ADDITIONAL H2 PADDING IN CERTAIN CASES */
+#content .scene p+h2,
+#content .scene ul+h2,
+#content .scene ol+h2,
+#content .scene ul+.pagination+h2,
+#content .scene dl+h2,
+#content .scene div.article+h2,
+#content .scene code+h2 {padding-top: 20px;}
+
+#content .scene ul.tags+h2,
+#content .scene ul.info+h2 {padding-top: 0;}
+
+#content .scene p+code {margin-top: -15px;}
+
+
+/* LISTS */
+#content .scene ul,
+#content .scene ol {padding: 0 70px 15px;}
+
+
+/* ITEMS */
+#content .scene ul.items {padding: 0;}
+#content .scene ul.items li.item {display: block; padding-top: 20px; padding-bottom: 30px; border-top: 1px solid #dedede; position: relative;}
+#content .scene ul.items li.item h2 {position: relative; z-index: 1;}
+
+/* DEFINITION LIST */
+#content .scene dl {padding: 0 70px 15px; width: 500px;}
+#content .scene dt {width: 115px; text-align: right; padding: 0 5px 6px 0; color: #bbbbbb;}
+#content .scene dt:after {content: ":";}
+#content .scene dd {padding: 0 0 6px; width: 380px;}
+#content .scene dt span {text-transform: none;}
+#content .scene dl dl {padding: 0 0 10px; margin-left: -30px; width: 425px;}
+#content .scene dl dl dt {width: 80px;}
+#content .scene dl dl dd {width: 339px;}
+#content .scene dl h3,
+#content .scene dl h4,
+#content .scene dl h5,
+#content .scene dl h6 {padding-left: 0; padding-right: 0; padding-top: 10px;}
+
+/* SCENE ACTIONS */
+#content .scene > ul.actions {margin: 0 0 20px; padding: 15px 70px;}
+
+/* TAGS */
+#content .scene ul.tags {position: relative; z-index: 1; padding-bottom: 20px;}
+#content .scene ul.tags li {font-size: 12px; display: inline-block; vertical-align: top;}
+#content .scene ul.tags li:after {content: "\00a0|\00a0"; color: #bbbbbb;}
+#content .scene ul.tags li:last-child:after {content: none;}
+#content .scene ul.tags li a {}
+#content .scene li.item ul.tags {}
+
+#content .scene ul.tags li.editing {background: #666666; border-radius: 3px; color: #ffffff !important; margin: -2px 10px -2px -2px; padding: 2px 10px;}
+#content .scene ul.tags li.editing:after {content: none;}
+
+
+/* IMAGE/MEDIA */
+#content .scene div.image,
+#content .scene div.media {position: relative; z-index: 10;}
+#content .scene div.image img,
+#content .scene div.media img {margin: 0 50px 30px; width: 540px; overflow: hidden;}
+#content .scene div.image p,
+#content .scene div.media p {margin-top: -27px; padding: 0 70px 33px; font-size: 0; display: none;}
+
+#content .scene div.vimeo,
+#content .scene div.youtube {position: relative; z-index: 1;}
+#content .scene div.vimeo iframe,
+#content .scene div.youtube iframe {margin: 0 50px 30px; width: 540px; overflow: hidden;}
+
+/* LOGIN */
+#content .scene.login form {padding-bottom: 20px;}
+#content .scene.login form li.forgot {padding: 7px 0 0;}
+#content .scene.login form li.forgot a {padding: 0; display: inline-block; vertical-align: top;}
+
+/* ERROR MESSAGES */
+#content .scene p.error,
+#content .scene p.errormessage {color: #df0000;}
+
